@@ -1,0 +1,126 @@
+<!--
+
+=========================================================
+* Neumorphism UI - v1.0.0
+=========================================================
+
+* Product Page: https://themesberg.com/product/ui-kits/neumorphism-ui
+* Copyright 2020 Themesberg MIT LICENSE (https://www.themesberg.com/licensing#mit)
+
+* Coded by https://themesberg.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+-->
+<!DOCTYPE html>
+<html lang="id">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+  <!-- Primary Meta Tags -->
+  <title>
+   Katalog Produk Undangan Digital Ika Cell
+  </title>
+  <meta content="Katalog Produk Undangan Digital Ika Cell" name="title"/>
+  <meta content="Temukan Katalog Produk Undangan Digital Ika Cell dengan desain elegan, interaktif, dan personal untuk momen istimewa Anda." name="description"/>
+  <!-- SEO Keywords -->
+  <meta content="undangan digital, undangan online, digital invitation, wedding invitation online, e-invitation, undangan digital pernikahan, undangan pernikahan online, wedding invitation digital murah, undangan digital elegan untuk pernikahan, undangan pernikahan online interaktif, template undangan pernikahan digital, undangan ulang tahun digital, undangan ulang tahun online gratis, birthday invitation online, undangan digital ulang tahun anak, desain undangan ulang tahun digital, undangan khitan digital, undangan aqiqah online, undangan tasyakuran digital, contoh undangan digital khitan interaktif, undangan seminar digital, undangan reuni online, undangan rapat digital, undangan acara resmi online, undangan pengajian digital, undangan syukuran digital, undangan digital ramah lingkungan, undangan digital modern, undangan digital interaktif, undangan digital hemat biaya, jasa pembuatan undangan digital, website undangan digital, cara membuat undangan digital pernikahan, jasa undangan digital murah dan elegan, undangan digital bisa RSVP online, undangan digital dengan musik &amp; galeri foto, katalog undangan digital berbagai acara, contoh undangan digital elegan untuk pernikahan, undangan digital online dengan tema custom" name="keywords"/>
+  <!-- Author -->
+  <meta content="Dekeku" name="author"/>
+  <!-- Canonical -->
+  <link href="https://undangan.dekeku.my.id" rel="canonical"/>
+  <!-- Open Graph / Facebook -->
+  <meta content="website" property="og:type"/>
+  <meta content="https://undangan.dekeku.my.id" property="og:url"/>
+  <meta content="Katalog Produk Undangan Digital Ika Cell" property="og:title"/>
+  <meta content="Temukan Katalog Produk Undangan Digital Ika Cell dengan desain elegan, interaktif, dan personal untuk momen istimewa Anda." property="og:description"/>
+  <meta content="https://ik.imagekit.io/mustofa/web/seller/logo/preview-ika-cell.png" property="og:image"/>
+  <!-- Twitter -->
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="https://undangan.dekeku.my.id" name="twitter:url"/>
+  <meta content="Katalog Produk Undangan Digital Ika Cell" name="twitter:title"/>
+  <meta content="Temukan Katalog Produk Undangan Digital Ika Cell dengan desain elegan, interaktif, dan personal untuk momen istimewa Anda." name="twitter:description"/>
+  <meta content="https://ik.imagekit.io/mustofa/web/seller/logo/preview-ika-cell.png" name="twitter:image"/>
+  <!-- Schema.org for Google -->
+  <meta content="Katalog Produk Undangan Digital Ika Cell" itemprop="name"/>
+  <meta content="Temukan Katalog Produk Undangan Digital Ika Cell dengan desain elegan, interaktif, dan personal untuk momen istimewa Anda." itemprop="description"/>
+  <meta content="https://ik.imagekit.io/mustofa/web/seller/logo/preview-ika-cell.png" itemprop="image"/>
+  <!-- Favicon -->
+  <link href="https://ik.imagekit.io/mustofa/web/seller/logo/favicon-ika-cell.png" rel="apple-touch-icon" sizes="120x120"/>
+  <link href="https://ik.imagekit.io/mustofa/web/seller/logo/favicon-ika-cell.png" rel="icon" type="image/png"/>
+  <meta content="#ffffff" name="msapplication-TileColor"/>
+  <meta content="#ffffff" name="theme-color"/>
+  <!-- Fontawesome -->
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.1/css/all.min.css" integrity="sha512-SUwyLkI1Wgm4aEZkDkwwigXaOI2HFLy1/YW73asun4sfvlkB9Ecl99+PHfCnfWD0FJjIuFTvWMM7BZPXCckpAA==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <!-- Pixel CSS -->
+  <link href="https://cdn.jsdelivr.net/gh/wahyuajismustofa/dekeku@20b911db4ba561a6b2798483c958df43ac9e2b75/assets/css/tema.css" rel="stylesheet" type="text/css"/>
+  <!-- NOTICE: You can use the _analytics.html partial to include production code specific code & trackers -->
+ </head>
+ <body>
+  <div class="position-fixed top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center" id="loadingScreen" style="background-color: rgb(230, 231, 238); z-index: 1050; transition: opacity 0.3s;">
+   <div class="spinner-border" role="status" style="width: 4rem; height: 4rem; color: #44476A;">
+   </div>
+  </div>
+  <div id="globalHeader">
+  </div>
+  <div id="katalog">
+  </div>
+  <div id="globalFooter">
+  </div>
+  <!-- Core -->
+  <script type="module">
+   import dekeku, { init, initSeller} from "/assets/js/main.js";
+    import initProduk from "/assets/js/produk.js";
+    import { template, loadScript } from "/assets/js/dom/template.js";
+
+    function renderPage(sections) {
+    for (const [id, html] of Object.entries(sections)) {
+        const el = document.getElementById(id);
+        if (el) {
+        el.outerHTML = html;
+        }
+    }
+    }
+
+    renderPage({
+    globalHeader: template.globalHeader(),
+    katalog: template.katalog(),
+    globalFooter: template.globalFooter()
+    });
+    
+    loadScript([
+    "jquery",
+    "popper",
+    "bootstrap",
+    "headroom",
+    "onscreen",
+    "nouislider",
+    "datepicker",
+    "waypoints",
+    "jarallax",
+    "counterup",
+    "countdown",
+    "smoothscroll",
+    "prism",
+    "githubButtons",
+    "tema",
+    "produk"
+    ]);
+
+
+    
+    let slug = location.pathname.split("/").pop().split(".")[0];
+    if (slug === "" || slug === "index")slug = 'dekeku';
+    document.addEventListener('DOMContentLoaded', async () => {
+        dekeku.prosesJs += 1;
+        await init();
+        await initSeller({slug: slug});
+        await initProduk();
+        dekeku.prosesJs -= 1;
+        dekeku.proxy.saveDekeku.value = true;
+    });
+  </script>
+ </body>
+</html>

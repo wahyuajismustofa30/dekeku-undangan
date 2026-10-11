@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+
+/* a38a5b coklat#FFA57F hijau */
+body {
+	font-family: 'Quicksand', sans-serif;
+	color: #b3b3b3 !important;
+    display: flex;
+    justify-content: center;
+	background:
+		linear-gradient(#6D7F5E,
+			transparent),
+		linear-gradient(90deg,
+			#536841,
+			transparent),
+		linear-gradient(-90deg,
+			#92a582,
+			transparent);
+
+	background-blend-mode: screen;
+	background-attachment: fixed;
+}
+
+a {
+	color: #fff !important;
+}
+
+.atas-kanan {
+	width: 200px;
+}
+
+.bawah-kiri {
+	width: 200px;
+}
+
+.isi {
+	width: 400px;
+	background-color: #000 !important;
+}
+
+/* .asd.bg-white{
+	background-color: #ffffff !important;
+} */
+
+.text-black {
+	color: black !important;
+}
+
+.text-primary {
+	color: #869977 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+	font-weight: bold !important;
+	color: rgb(56, 56, 56) !important;
+}
+
+.nav-link {
+	margin: auto;
+}
+
+.hero-img{
+	border: 3px solid #BB653B;
+	padding: 5px;
+	border-radius: 90px;
+	background-color: white;
+}
+
+.fonts {
+	font-family: "Leckerli One", cursive;
+	font-size: 50px;
+	/* text-shadow: -3px -3px 0 #fff, 0 -3px 0 #fff, 3px -3px 0 #fff, 3px 0 0 #fff, 3px 3px 0 #fff, 0 3px 0 #fff, -3px 3px 0 #fff, -3px 0 0 #fff; */
+}
+
+.hero-1 .container .asd {
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* .hero-1 .container .asd .text-center{
+	z-index: 2;
+	position: relative;
+}
+
+.hero-1 .container .asd:after {
+	content: '';
+	background-color: rgba(250, 223, 173, 0.7);
+	width: 100%;
+	height: 600px;
+	display: block;
+	position: absolute;
+} */
+
+.hero-1 .mb-3 {
+	color: #000000;
+}
+
+.hero-1 .mb-3 .fonts {
+	color: #000000;
+}
+
+.hero-1 img {
+	position: absolute;
+	z-index: 1;
+	width: 150px;
+}
+
+h1.fonts {
+	font-size: 60px;
+}
+
+header nav .navbar-nav .nav-link.active {
+	color: #FFA57F !important;
+}
+
+.bg-primary {
+	background-color: #BB653B !important;
+	color: white !important;
+}
+
+button.bg-primary:hover,
+button.bg-primary:focus {
+	background-color: #FFA57F !important;
+	color: white !important;
+}
+
+.asddddd,
+.py-5.bg {
+	background-image: url(https://ik.imagekit.io/mustofa/web/img/walimah/bg_12.webp);
+	background-size: cover;
+	background-position: center;
+}
+
+/* .hover:hover{
+	box-shadow: 0 1rem 3rem rgba(130, 140, 125, 0.5) !important;
+} */
+
+/* .hero-1 .container .p-5 .text-center {
+	position: relative;
+	z-index: 1;
+} */
+
+/* .hero-1 .container .p-5:after {
+	content: '';
+	background-color: rgba(34,40,49,0.7);
+	width: 80%;
+	height: auto;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+} */
+
+@media(min-width: 992px) {
+	.nav-link {
+		margin-left: 10px;
+	}
+}
+
+.crop-foto {
+	height: 200px;
+	overflow: hidden;
+}
+
+.crop-content {
+	height: 70px;
+	overflow: hidden;
+}
+
+.isi-content img {
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+footer h5 {
+	color: #000 !important;
+}
+
+footer a {
+	color: #6c757d !important;
+}
+
+.form-control {
+	border-radius: 0px !important;
+}
+
+.shadow-sm {
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+.shadow {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-lg {
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.07) !important;
+}
+
+.card {
+	border-radius: 10px !important;
+	background-color: #1F1F1F !important;
+	border: 3px solid #DEB35D !important;
+}
+
+.card hr {
+	border-color: #d3d3d3;
+}
+
+hr.bg-secondary {
+	border-color: #d3d3d3;
+}
+
+.card a {
+	color: #272727 !important;
+}
+
+.card figure {
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+.card figure:before {
+	z-index: 2;
+	-webkit-transition: .4s all ease;
+	-o-transition: .4s all ease;
+	transition: .4s all ease;
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	position: absolute;
+	content: "";
+	left: 20px;
+	right: 20px;
+	top: 20px;
+	bottom: 20px;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.card figure img {
+	-webkit-transition: .3s all ease;
+	-o-transition: .3s all ease;
+	transition: .3s all ease;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.card:hover figure:before {
+	opacity: 1;
+	visibility: visible;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.card:hover figure img {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.btn {
+	border-radius: 8px !important;
+	padding: 10px 20px !important;
+}
+
+.btn-primary {
+	background-color: #BB653B !important;
+	border-color: #BB653B !important;
+	box-shadow: none !important;
+}
+
+.btn-primary:hover {
+	background-color: #BB653B !important;
+	border-color: #BB653B !important;
+}
+
+.btn-primary:focus {
+	background-color: #BB653B !important;
+	border-color: #BB653B !important;
+}
+
+.hero-1 .btn-primary {
+	background-color: #ffffff !important;
+	border-color: #ffffff !important;
+	color: #BB653B;
+	box-shadow: none !important;
+}
+
+.hero-1 .btn-primary:hover {
+	background-color: #BB653B !important;
+	border-color: #BB653B !important;
+	color: #fff;
+}
+
+.hero-1 .btn-primary:focus {
+	background-color: #BB653B !important;
+	border-color: #BB653B !important;
+	color: #fff;
+}
+
+.radius-20 {
+	border-radius: 20px;
+}
+
+a.btn {
+	color: #fff !important;
+}
+
+.border-white,
+.border-white:hover,
+.border-white:focus {
+	border: 3px solid #fff !important;
+}
+
+.bg-top {
+	margin-top: -108px;
+}
+
+.bg-img {
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	background-image: url(https://ik.imagekit.io/mustofa/web/img/walimah/bg.webp);
+}
+
+.text-secondary {
+	color: #949494 !important;
+}
+
+.bg-light {
+	background-color: #1F1F1F !important;
+}
+
+.bg-light2 {
+	background: linear-gradient(#1f1f1f, transparent), linear-gradient(90deg, #1c2019, transparent), linear-gradient(-90deg, #2c160b, transparent);
+	background-size: cover;
+	background-position: center;
+}
+
+.bulat {
+	aspect-ratio: 1/1;
+	object-fit: cover;
+}
+
+
+
+
+.button-menu {
+	display: none;
+	font-style: normal !important;
+}
+
+.button-menu-item {
+	background-color: #ffffff;
+	border: 1px solid #eeeeee !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 8px;
+}
+
+.button-menu-item a {
+	float: left;
+	text-align: center;
+	font-style: normal !important;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #BB653B;
+	color: white !important;
+	text-decoration: none !important;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-radius: 8px;
+}
+
+.button-menu-item a:last-child {
+	margin-right: 6px;
+}
+
+.button-menu-item a:first-child {
+	margin-left: 6px;
+}
+
+@media (min-width: 992px) {
+
+	.button-menu-item a {
+		font-size: 20px;
+		width: 50px;
+		height: 50px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.button-menu-item a:last-child {
+		margin-right: 20px;
+	}
+
+	.button-menu-item a:first-child {
+		margin-left: 20px;
+	}
+
+	.button-menu-item {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+.asd {
+	display: flex;
+	justify-content: center;
+}
+
+.button-menu-item a:hover {
+	background-color: #000;
+	color: white !important;
+}
+
+.button-menu-item a:focus {
+	background-color: #000;
+	color: white !important;
+}
+
+.fonts br{
+	display: none !important;
+}
+
+.isi-hero {
+    margin-top: -120px;
+    /* margin-bottom: -50px; */
+    position: relative;
+    z-index: 99;
+}
+
+
+
+
+.images{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.images1{
+	width: 200px;
+}
+
+.images2{
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	background-size: cover;
+	background-position: center;
+	width: 150px;
+	border-radius: 150px;
+	position: absolute;
+	z-index: 99;
+}
+
+.images-hero {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    width: 200px;
+    aspect-ratio: .8 / 1;
+    object-fit: cover;
+}

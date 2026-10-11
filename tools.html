@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ </head>
+ <body>
+  <script type="module">
+   import dekeku, { dekekuFunction as _dF } from "https://cdn.jsdelivr.net/gh/wahyuajismustofa/dekeku@fd1fd81f4c842a66d71a5cc578291a8b19db20ba/assets/js/dekeku.js";
+    
+    document.addEventListener('DOMContentLoaded', async () => {
+            try {
+                await _dF.waitUntilTrue(() => dekeku.ready).then(async () => {
+                    dekeku.params = _dF.params.getParams();
+                    if (!dekeku.params.seller){
+                        return goBack();
+                    } else{
+                        const sF = await loadModuleFunctions("/assets/js/main.js",{init: "initSeller"});
+                        await sF.init({ slug: dekeku.params.seller });
+                    }
+                    if(dekeku.params.get){
+                        if(dekeku.params.get === "produk"){
+                            const jH = await loadModuleFunctions("https://cdn.jsdelivr.net/gh/wahyuajismustofa/dekeku@main/assets/js/utils/jsonHandler.js",{enrich: "enrichWithLookups"});
+                            const file = {file:"produk", nama: "produk", repo:{username:"wahyuajismustofa",repo:"dekeku"}};
+                            _dF.pushUniqueObj(dekeku.daftarJson,"nama",file);
+                            await _dF.loadAllData();
+                            let params = encodeUrlSafe(JSON.stringify({sellerId: dekeku.dataJson.seller.id}));
+                            dekeku.dataJson.produk = jH.enrich(dekeku.dataJson.produk.produk,{kategori: dekeku.dataJson.produk.kategori, paket: dekeku.dataJson.produk.paket});
+                            dekeku.dataJson.produk = dekeku.dataJson.produk.map(item => ({nama: item.nama, acara: item.acara,tema: item.tema, link: `${item.link_produk}?d=${params}`}));
+                            let produkStr = "*DAFTAR UNDANGAN DEKEKU*\n";
+                            produkStr += 'File Foto Produk https://drive.google.com/drive/folders/1judBEwYODl0mQkRAFp4BTiMYMr-1NwFM\n\n';
+                            produkStr += grouping(dekeku.dataJson.produk,["acara","tema"],["nama","link"]);
+                            // console.log(produkStr);
+                            window.location.href = `https://wa.me/${dekeku.dataJson.seller.kontak}?text=${encodeURIComponent(produkStr)}`;
+                        }else{
+                          return goBack();                          
+                        }
+                    }else{
+                      return goBack();                          
+                    }
+                });
+            } catch (err) {
+                console.error(err.message);
+            }
+    });
+    
+    function goBack() {
+    // return console.log("Dialihkan");
+    if (window.history.length > 1) {
+        window.history.back();
+    } else {
+        window.location.href = "/"; 
+    }
+    }
+        
+    async function loadModuleFunctions(url, mapping) {
+    const mod = await import(url);
+    const result = {};
+
+    for (const [alias, original] of Object.entries(mapping)) {
+        if (mod[original]) {
+        result[alias] = mod[original];
+        } else {
+        console.warn(`Fungsi "${original}" tidak ditemukan di ${url}`);
+        }
+    }
+
+    return result;
+    }
+
+function grouping(datajson, groupKeys, displayKeys) {
+  function groupBy(data, keys, level = 0) {
+    if (level >= keys.length) return data;
+
+    const key = keys[level];
+    const grouped = {};
+
+    for (const item of data) {
+      const val = item[key] || "Lainnya";
+      if (!grouped[val]) grouped[val] = [];
+      grouped[val].push(item);
+    }
+
+    for (const k of Object.keys(grouped)) {
+      grouped[k] = groupBy(grouped[k], keys, level + 1);
+    }
+
+    return grouped;
+  }
+
+  const grouped = groupBy(datajson, groupKeys);
+
+  function toText(group, level = 0) {
+    let text = "";
+
+    for (const key of Object.keys(group)) {
+      const val = group[key];
+      // Tambahkan judul sesuai level
+      const title = `${groupKeys[level]?.toUpperCase() || "GROUP"} ${key.toUpperCase()}`;
+      text += `\n${title}\n`;
+
+      if (Array.isArray(val)) {
+        text += displayGroup(val);
+      } else {
+        text += toText(val, level + 1);
+      }
+    }
+    return text;
+  }
+
+  function displayGroup(items) {
+    return (
+      items
+        .map((item, i) => {
+          const line = displayKeys.map(k => item[k]).join(" - ");
+          return `${i + 1}. ${line}`;
+        })
+        .join("\n") + "\n"
+    );
+  }
+
+  return toText(grouped).trim();
+}
+
+
+
+    function encodeUrlSafe(str) {
+    return btoa(str)
+        .replace(/\+/g, "-")
+        .replace(/\//g, "_")
+        .replace(/=+$/, "");
+    }
+  </script>
+ </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "_detail": {
+    "rules": {
+      "write": false
+    },
+    "fileName": "data",
+    "sha": "30e112e480ffbc44ad2837144ca27ea98c0c1349",
+    "lastId_seller": 2,
+    "lastUpdate": "2025-08-14T20:30:18.822Z"
+  },
+  "seller": [
+    {
+      "id": 1,
+      "pemilik": "Wahyu Ajis Mustofa",
+      "nama": "Dekeku",
+      "kontak": 6285161517176,
+      "home_page": "https://www.dekeku.my.id",
+      "favicon": "https://ik.imagekit.io/mustofa/web/seller/logo/favicon-dekeku.png",
+      "logo1": "https://ik.imagekit.io/mustofa/web/seller/logo/dekeku-dark.svg",
+      "logo2": "https://ik.imagekit.io/mustofa/web/seller/logo/dekeku-light.svg"
+    },
+    {
+      "id": 2,
+      "pemilik": "Miftahul",
+      "nama": "Arto Printing",
+      "kontak": 6285712110870,
+      "home_page": "https://www.artoprintingpbg.com",
+      "favicon": "https://ik.imagekit.io/mustofa/web/seller/logo/favicon-artoprinting.png",
+      "logo1": "https://ik.imagekit.io/mustofa/web/seller/logo/artoprinting.png",
+      "logo2": "https://ik.imagekit.io/mustofa/web/seller/logo/artoprinting.png"
+    }
+  ]
+}
