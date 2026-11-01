@@ -53,18 +53,18 @@ body.serlyn {
 /* Original Color */
 body.serlyn.original {
     /* Ornament */
-    --bg-forest-landscape: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-landscape.webp");
-    --bg-forest-landscape-op5: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-landscape-op5_1.webp");
-    --bg-forest-potrait: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-potrait_2.webp");
-    --bg-rsvp-texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-rsvp-texture_1.webp");
-    --bg-silent-garden: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-silent-garden.webp");
-    --bg-story-texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-story-texture.webp");
-    --bg-photo-video-wrapper: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-photo-video-wrapper.jpg");
+    --bg-forest-landscape: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-landscape.webp");
+    --bg-forest-landscape-op5: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-landscape-op5_1.webp");
+    --bg-forest-potrait: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-potrait_2.webp");
+    --bg-rsvp-texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-rsvp-texture_1.webp");
+    --bg-silent-garden: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-silent-garden.webp");
+    --bg-story-texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-story-texture.webp");
+    --bg-photo-video-wrapper: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-photo-video-wrapper.jpg");
 
-    --flower-light: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/flower-light_2.webp");
-    --flower-dark: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/flower-dark_1.webp");
-    --frame-quote: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/frame-quote.webp");
-    --line-orn-event: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/line-orn-event.webp");
+    --flower-light: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/flower-light_2.webp");
+    --flower-dark: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/flower-dark_1.webp");
+    --frame-quote: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/frame-quote.webp");
+    --line-orn-event: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/line-orn-event.webp");
 }
 
 /* Serlyn Brown Color */
@@ -77,52 +77,52 @@ body.serlyn.brown {
     --background-rgb: 231, 210, 183;
 
     /* Ornament */
-    --bg-forest-landscape: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-landscape-min.webp");
-    --bg-forest-landscape-op5: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-landscape-op5-min.webp");
-    --bg-forest-potrait: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-potrait-min.webp");
-    --bg-rsvp-texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-rsvp-texture-min.webp");
-    --bg-silent-garden: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-savedate-min.webp");
-    --bg-story-texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/orn-story-texture-min.webp");
-    --bg-photo-video-wrapper: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-photo-video-wrapper-min.jpg");
+    --bg-forest-landscape: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-landscape-min.webp");
+    --bg-forest-landscape-op5: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-landscape-op5-min.webp");
+    --bg-forest-potrait: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-potrait-min.webp");
+    --bg-rsvp-texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-rsvp-texture-min.webp");
+    --bg-silent-garden: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-savedate-min.webp");
+    --bg-story-texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/orn-story-texture-min.webp");
+    --bg-photo-video-wrapper: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-photo-video-wrapper-min.jpg");
 
-    --flower-light: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/flower-light-min.webp");
-    --flower-dark: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/flower-dark-min.webp");
-    --frame-quote: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/frame-quote-min.webp");
-    --line-orn-event: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/line-orn-event-min.webp");
+    --flower-light: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/flower-light-min.webp");
+    --flower-dark: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/flower-dark-min.webp");
+    --frame-quote: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/frame-quote-min.webp");
+    --line-orn-event: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/line-orn-event-min.webp");
 }
 
 /* Serlyn Black Color */
 body.serlyn.black {
     /* Ornament */
-    --bg-forest-landscape: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-landscape_1.webp");
-    --bg-forest-landscape-op5: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-landscape-op5_2.webp");
-    --bg-forest-potrait: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-potrait.webp");
-    --bg-rsvp-texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-rsvp-texture.webp");
-    --bg-silent-garden: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-savedate.webp");
-    --bg-story-texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/orn-story-texture.webp");
-    --bg-photo-video-wrapper: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-photo-video-wrapper.jpg");
+    --bg-forest-landscape: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-landscape_1.webp");
+    --bg-forest-landscape-op5: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-landscape-op5_2.webp");
+    --bg-forest-potrait: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-potrait.webp");
+    --bg-rsvp-texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-rsvp-texture.webp");
+    --bg-silent-garden: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-savedate.webp");
+    --bg-story-texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/orn-story-texture.webp");
+    --bg-photo-video-wrapper: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-photo-video-wrapper.jpg");
 
-    --flower-light: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/flower-light_1.webp");
-    --flower-dark: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/flower-dark.webp");
-    --frame-quote: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/frame-quote_2.webp");
-    --line-orn-event: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/line-orn-event_1.webp");
+    --flower-light: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/flower-light_1.webp");
+    --flower-dark: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/flower-dark.webp");
+    --frame-quote: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/frame-quote_2.webp");
+    --line-orn-event: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/line-orn-event_1.webp");
 }
 
 /* Serlyn Black Color */
 body.serlyn.maroon {
     /* Ornament */
-    --bg-forest-landscape: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-landscape_2.webp");
-    --bg-forest-landscape-op5: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-landscape-op5.webp");
-    --bg-forest-potrait: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-forest-potrait_1.webp");
-    --bg-rsvp-texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-rsvp-texture.jpg");
-    --bg-silent-garden: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/orn-savedate.webp");
-    --bg-story-texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/orn-watercolor.webp");
-    --bg-photo-video-wrapper: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/bg-photo-video-wrapper.jpg");
+    --bg-forest-landscape: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-landscape_2.webp");
+    --bg-forest-landscape-op5: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-landscape-op5.webp");
+    --bg-forest-potrait: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-forest-potrait_1.webp");
+    --bg-rsvp-texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-rsvp-texture.jpg");
+    --bg-silent-garden: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/orn-savedate.webp");
+    --bg-story-texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/orn-watercolor.webp");
+    --bg-photo-video-wrapper: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/bg-photo-video-wrapper.jpg");
 
-    --flower-light: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/flower-light.webp");
-    --flower-dark: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/flower-maroon.webp");
-    --frame-quote: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/frame-quote_1.webp");
-    --line-orn-event: url("https://ik.imagekit.io/mustofa/web/undangan-web/zahra-naufal/line-orn-event_2.webp");
+    --flower-light: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/flower-light.webp");
+    --flower-dark: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/flower-maroon.webp");
+    --frame-quote: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/frame-quote_1.webp");
+    --line-orn-event: url("https://drive.dekeku.my.id/storage/old/undangan-web/zahra-naufal/line-orn-event_2.webp");
 }
 
 /* Font Configs */

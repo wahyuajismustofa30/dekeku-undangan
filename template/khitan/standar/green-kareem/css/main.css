@@ -92,7 +92,7 @@ h6,
 .bg-light {
 	background-size: cover;
 	background-position: center;
-	background-image: url(https://ik.imagekit.io/mustofa/web/khitan/green-kareem/bg.webp);
+	background-image: url(https://drive.dekeku.my.id/storage/old/khitan/green-kareem/bg.webp);
 	color: #e4e4e4 !important;
 }
 .bg-light h3.text-dark{
@@ -279,8 +279,8 @@ html {
 	border-radius: 4px;
 }
 .mask1 {
-	-webkit-mask-image: url('https://ik.imagekit.io/mustofa/web/khitan/shape.webp');
-	mask-image: url('https://ik.imagekit.io/mustofa/web/khitan/shape.webp');
+	-webkit-mask-image: url('https://drive.dekeku.my.id/storage/old/khitan/shape.webp');
+	mask-image: url('https://drive.dekeku.my.id/storage/old/khitan/shape.webp');
 	-webkit-mask-size: 100%;
 	mask-size: 100%;
 	-webkit-mask-repeat: no-repeat;

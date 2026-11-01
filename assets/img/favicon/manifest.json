@@ -3,12 +3,12 @@
   "short_name": "Bootstrap",
   "icons": [
     {
-      "src": "https://ik.imagekit.io/mustofa/web/dekeku/dekeku-logo-dark-195.png",
+      "src": "https://drive.dekeku.my.id/storage/old/dekeku/dekeku-logo-dark-195.png",
       "sizes": "195x195",
       "type": "image/png"
     },
     {
-      "src": "https://ik.imagekit.io/mustofa/web/dekeku/dekeku-logo-dark-512.png",
+      "src": "https://drive.dekeku.my.id/storage/old/dekeku/dekeku-logo-dark-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

@@ -71,9 +71,9 @@ body.oceana.original {
   --button-background-secondary-rgb: 255, 246, 226;
 
   /* ornament */
-  --bg: url("https://ik.imagekit.io/mustofa/web/undangan-web/aisyah-farhan/bg-main.webp");
-  --texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/aisyah-farhan/texture.webp");
-  --video: url("https://ik.imagekit.io/mustofa/web/undangan-web/aisyah-farhan/orn-video.webp");
+  --bg: url("https://drive.dekeku.my.id/storage/old/undangan-web/aisyah-farhan/bg-main.webp");
+  --texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/aisyah-farhan/texture.webp");
+  --video: url("https://drive.dekeku.my.id/storage/old/undangan-web/aisyah-farhan/orn-video.webp");
 }
 
 @media only screen and (max-width: 960px) {

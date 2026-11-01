@@ -64,15 +64,15 @@ body.rosalia.original {
 
     /* ornament */
     --bg: url("images/orn-09-min.png");
-    --bg-cover: url("https://ik.imagekit.io/mustofa/web/undangan-web/ayu-daffa/bg-min.webp");
-    --bg-top-cover: url("https://ik.imagekit.io/mustofa/web/undangan-web/ayu-daffa/bg-top-cover-min.webp");
+    --bg-cover: url("https://drive.dekeku.my.id/storage/old/undangan-web/ayu-daffa/bg-min.webp");
+    --bg-top-cover: url("https://drive.dekeku.my.id/storage/old/undangan-web/ayu-daffa/bg-top-cover-min.webp");
     --couple-mask: url("images/orn-03-min.png");
-    --texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/ayu-daffa/texture-min.webp");
+    --texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/ayu-daffa/texture-min.webp");
     
-    --orn-bunga-line: url("https://ik.imagekit.io/mustofa/web/undangan-web/ayu-daffa/orn-36-min_1.webp");
-    --orn-bunga-line-vertical: url("https://ik.imagekit.io/mustofa/web/undangan-web/ayu-daffa/orn-37-min_1.webp");
-    --orn-line: url("https://ik.imagekit.io/mustofa/web/undangan-web/ayu-daffa/orn-9-min_1.webp");
-    --orn-line-vertical: url("https://ik.imagekit.io/mustofa/web/undangan-web/ayu-daffa/orn-35-min_1.webp");
+    --orn-bunga-line: url("https://drive.dekeku.my.id/storage/old/undangan-web/ayu-daffa/orn-36-min_1.webp");
+    --orn-bunga-line-vertical: url("https://drive.dekeku.my.id/storage/old/undangan-web/ayu-daffa/orn-37-min_1.webp");
+    --orn-line: url("https://drive.dekeku.my.id/storage/old/undangan-web/ayu-daffa/orn-9-min_1.webp");
+    --orn-line-vertical: url("https://drive.dekeku.my.id/storage/old/undangan-web/ayu-daffa/orn-35-min_1.webp");
 }
 
 @media only screen and (max-width: 960px) {

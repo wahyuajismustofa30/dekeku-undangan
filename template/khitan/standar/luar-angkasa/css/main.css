@@ -6,7 +6,7 @@ body {
 	color: #6c757d !important;
 	display: flex;
 	justify-content: center;
-	background-image: url(https://ik.imagekit.io/mustofa/web/khitan/luar-angkasa/bg2.webp);
+	background-image: url(https://drive.dekeku.my.id/storage/old/khitan/luar-angkasa/bg2.webp);
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -91,7 +91,7 @@ h6,
 	background-color: #fff;
 }
 .bg-light {
-	background-image: url(https://ik.imagekit.io/mustofa/web/khitan/luar-angkasa/bg.webp);
+	background-image: url(https://drive.dekeku.my.id/storage/old/khitan/luar-angkasa/bg.webp);
 	background-position: center;
 	background-size: cover;
 	color: #ececec !important;
@@ -280,8 +280,8 @@ html {
 	border-radius: 4px;
 }
 .mask1 {
-	-webkit-mask-image: url('https://ik.imagekit.io/mustofa/web/khitan/shape.webp');
-	mask-image: url('https://ik.imagekit.io/mustofa/web/khitan/shape.webp');
+	-webkit-mask-image: url('https://drive.dekeku.my.id/storage/old/khitan/shape.webp');
+	mask-image: url('https://drive.dekeku.my.id/storage/old/khitan/shape.webp');
 	-webkit-mask-size: 100%;
 	mask-size: 100%;
 	-webkit-mask-repeat: no-repeat;

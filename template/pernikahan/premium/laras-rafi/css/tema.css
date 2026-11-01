@@ -71,11 +71,11 @@ body.katrina.original {
     --button-background-secondary-rgb: 203, 169, 86;
 
     /* ornament */
-    --texture-1: url("https://ik.imagekit.io/mustofa/web/undangan-web/laras-rafi/bg-texture-1.webp");
-    --cover-frame-mask: url("https://ik.imagekit.io/mustofa/web/undangan-web/laras-rafi/mask-cover.webp");
-    --mask-couple: url("https://ik.imagekit.io/mustofa/web/undangan-web/laras-rafi/mask-couple.webp");
-    --divider-1: url("https://ik.imagekit.io/mustofa/web/undangan-web/laras-rafi/Orn-divider-1_1.webp");
-    --orn-1: url("https://ik.imagekit.io/mustofa/web/undangan-web/laras-rafi/Orn-33_1.webp");
+    --texture-1: url("https://drive.dekeku.my.id/storage/old/undangan-web/laras-rafi/bg-texture-1.webp");
+    --cover-frame-mask: url("https://drive.dekeku.my.id/storage/old/undangan-web/laras-rafi/mask-cover.webp");
+    --mask-couple: url("https://drive.dekeku.my.id/storage/old/undangan-web/laras-rafi/mask-couple.webp");
+    --divider-1: url("https://drive.dekeku.my.id/storage/old/undangan-web/laras-rafi/Orn-divider-1_1.webp");
+    --orn-1: url("https://drive.dekeku.my.id/storage/old/undangan-web/laras-rafi/Orn-33_1.webp");
 }
 
 @media only screen and (max-width: 960px) {

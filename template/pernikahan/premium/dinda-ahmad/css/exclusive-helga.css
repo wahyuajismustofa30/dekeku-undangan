@@ -91,10 +91,10 @@ body.helga {
 body.helga.original {
     /* ornament */
     --texture-body: url("images/texture-body.png");
-    --bg-quotes: url("https://ik.imagekit.io/mustofa/web/undangan-web/dinda-ahmad/bg-quotes.webp");
-    --bg-top-cover: url("https://ik.imagekit.io/mustofa/web/undangan-web/dinda-ahmad/bg-top-cover.webp");
-    --cover-frame-mask: url("https://ik.imagekit.io/mustofa/web/undangan-web/dinda-ahmad/bg-mask-cover.webp");
-    --cover-frame: url("https://ik.imagekit.io/mustofa/web/undangan-web/dinda-ahmad/frame.webp");
+    --bg-quotes: url("https://drive.dekeku.my.id/storage/old/undangan-web/dinda-ahmad/bg-quotes.webp");
+    --bg-top-cover: url("https://drive.dekeku.my.id/storage/old/undangan-web/dinda-ahmad/bg-top-cover.webp");
+    --cover-frame-mask: url("https://drive.dekeku.my.id/storage/old/undangan-web/dinda-ahmad/bg-mask-cover.webp");
+    --cover-frame: url("https://drive.dekeku.my.id/storage/old/undangan-web/dinda-ahmad/frame.webp");
 }
 
 /* Fonts */

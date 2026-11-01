@@ -89,14 +89,14 @@ body.palace.original {
     --button-text-secondary-rgb: 83, 68, 49;
 
     /* assets */
-    --ladder: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/tangga.webp");
-    --rsvp-bg: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/bg-RSVP-min.webp");
-    --paper: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/paper22-min.webp");
-    --bg-top-cover: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/bg-ilustrasi-coverpembuka-min.webp");
-    --bg-gallery: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/bg-ilustrasi-coverpembuka-min.webp");
-    --bg-live-streaming: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/bg-live-streaming-min.webp");
-    --bg-protocol: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/bg-protokol.webp");
-    --pilar-side: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/pilar-min.webp");
+    --ladder: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/tangga.webp");
+    --rsvp-bg: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/bg-RSVP-min.webp");
+    --paper: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/paper22-min.webp");
+    --bg-top-cover: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/bg-ilustrasi-coverpembuka-min.webp");
+    --bg-gallery: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/bg-ilustrasi-coverpembuka-min.webp");
+    --bg-live-streaming: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/bg-live-streaming-min.webp");
+    --bg-protocol: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/bg-protokol.webp");
+    --pilar-side: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/pilar-min.webp");
 }
 
 body.palace h1,
@@ -1721,8 +1721,8 @@ section.cover .inner .body .cover-ornament .orn-bottom .bunga.dua img {
   display: block;
   object-fit: cover;
   object-position: center;
-  -webkit-mask-image: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/mask-frame.webp");
-  mask-image: url("https://ik.imagekit.io/mustofa/web/undangan-web/hana-akbar/mask-frame.webp");
+  -webkit-mask-image: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/mask-frame.webp");
+  mask-image: url("https://drive.dekeku.my.id/storage/old/undangan-web/hana-akbar/mask-frame.webp");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-size: 100% 100%;

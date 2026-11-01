@@ -56,11 +56,11 @@ body.bulan-bintang.original {
     --button-background-secondary-rgb: 208, 162, 94;
 
     /* ornament */
-    --bg: url("https://ik.imagekit.io/mustofa/web/undangan-web/bulan-bintang/images/bg-min_1.png");
-    --bg-overlay: url("https://ik.imagekit.io/mustofa/web/undangan-web/bulan-bintang/images/bg-overlay-min_1.png");
-    --couple-mask: url("https://ik.imagekit.io/mustofa/web/undangan-web/bulan-bintang/images/orn-mask-min.png");
-    --texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/bulan-bintang/images/texture-min.png");
-    --event-frame: url("https://ik.imagekit.io/mustofa/web/undangan-web/bulan-bintang/images/orn-frame-2-min_1.png");
+    --bg: url("https://drive.dekeku.my.id/storage/old/undangan-web/bulan-bintang/images/bg-min_1.png");
+    --bg-overlay: url("https://drive.dekeku.my.id/storage/old/undangan-web/bulan-bintang/images/bg-overlay-min_1.png");
+    --couple-mask: url("https://drive.dekeku.my.id/storage/old/undangan-web/bulan-bintang/images/orn-mask-min.png");
+    --texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/bulan-bintang/images/texture-min.png");
+    --event-frame: url("https://drive.dekeku.my.id/storage/old/undangan-web/bulan-bintang/images/orn-frame-2-min_1.png");
 }
 
 @media only screen and (max-width: 960px) {
@@ -5068,7 +5068,7 @@ label > a:hover {
     height: 60px;
     cursor: pointer;
 
-    background-image: url("https://ik.imagekit.io/mustofa/web/undangan-web/music.webp");
+    background-image: url("https://drive.dekeku.my.id/storage/old/undangan-web/music.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;

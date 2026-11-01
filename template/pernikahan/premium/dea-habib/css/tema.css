@@ -91,33 +91,33 @@ body.ruri.original {
     --dark-rgb: 0, 0, 0;
 
     /* Ornament */
-    --bg-cover: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/bg-cover.webp");    
-    --bg-couple: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/bg-couple.webp");
-    --bg-save-date: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/bg-save-date.webp");
-    --bg-story: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/bg-story.webp");
-    --bg-texture: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/bg-texture.webp");    
+    --bg-cover: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/bg-cover.webp");    
+    --bg-couple: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/bg-couple.webp");
+    --bg-save-date: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/bg-save-date.webp");
+    --bg-story: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/bg-story.webp");
+    --bg-texture: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/bg-texture.webp");    
 
-    --overlay-topcover: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/overlay-topcover.webp");
+    --overlay-topcover: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/overlay-topcover.webp");
 
-    --orn-bunga-couple: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/bunga-couple.webp");
-    --orn-daun-couple: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/daun-couple.webp");
+    --orn-bunga-couple: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/bunga-couple.webp");
+    --orn-daun-couple: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/daun-couple.webp");
 
-    --quote-flowers: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/quote-flowers.webp");
-    --gallery-flowers: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/gallery-flowers.webp");
+    --quote-flowers: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/quote-flowers.webp");
+    --gallery-flowers: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/gallery-flowers.webp");
 
-    --agenda-flowers: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/agenda-flowers.webp");
+    --agenda-flowers: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/agenda-flowers.webp");
 
-    --footer-flowers-01: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/footer-flowers-01.webp");
-    --footer-flowers-02: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/footer-flowers-02.webp");
-    --footer-flowers-03: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/footer-flowers-03.webp");
+    --footer-flowers-01: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/footer-flowers-01.webp");
+    --footer-flowers-02: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/footer-flowers-02.webp");
+    --footer-flowers-03: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/footer-flowers-03.webp");
 
-    --motif-ulos: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/motif-ulos.webp");
-    --cover-flowers-left-01: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/cover-flowers-left-01.webp");
-    --cover-flowers-left-02: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/cover-flowers-left-02.webp");
-    --cover-flowers-right-01: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/cover-flowers-right-01.webp");
-    --cover-flowers-right-02: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/cover-flowers-right-02.webp");
-    --cover-flowers-right-03: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/cover-flowers-right-03.webp");
-    --cover-flowers-bottom: url("https://ik.imagekit.io/mustofa/web/undangan-web/dea-habib/cover-flowers-bottom.webp");
+    --motif-ulos: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/motif-ulos.webp");
+    --cover-flowers-left-01: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/cover-flowers-left-01.webp");
+    --cover-flowers-left-02: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/cover-flowers-left-02.webp");
+    --cover-flowers-right-01: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/cover-flowers-right-01.webp");
+    --cover-flowers-right-02: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/cover-flowers-right-02.webp");
+    --cover-flowers-right-03: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/cover-flowers-right-03.webp");
+    --cover-flowers-bottom: url("https://drive.dekeku.my.id/storage/old/undangan-web/dea-habib/cover-flowers-bottom.webp");
 }
 
 /* Font Configs */

@@ -6,7 +6,7 @@ body {
 	color: #6c757d !important;
 	display: flex;
 	justify-content: center;
-	background-image: url(https://ik.imagekit.io/mustofa/web/khitan/memori-cerah/bg.webp);
+	background-image: url(https://drive.dekeku.my.id/storage/old/khitan/memori-cerah/bg.webp);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -278,8 +278,8 @@ html {
 	border-radius: 4px;
 }
 .mask1 {
-	-webkit-mask-image: url('https://ik.imagekit.io/mustofa/web/khitan/shape.webp');
-	mask-image: url('https://ik.imagekit.io/mustofa/web/khitan/shape.webp');
+	-webkit-mask-image: url('https://drive.dekeku.my.id/storage/old/khitan/shape.webp');
+	mask-image: url('https://drive.dekeku.my.id/storage/old/khitan/shape.webp');
 	-webkit-mask-size: 100%;
 	mask-size: 100%;
 	-webkit-mask-repeat: no-repeat;
