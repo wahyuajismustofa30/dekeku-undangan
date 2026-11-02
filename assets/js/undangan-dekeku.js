@@ -1,4 +1,4 @@
-import dekeku, { dekekuFunction as _dF } from "https://cdn.jsdelivr.net/gh/wahyuajismustofa/dekeku@1d884c20902def08c3e7af007a0abc52ebeea3f3/assets/js/dekeku.js";
+import dekeku, { dekekuFunction as _dF } from "https://cdn.jsdelivr.net/gh/wahyuajismustofa30/dekeku@b811cf45d4eabe9f0f3ec42b1f11ff4f78269781/assets/js/dekeku.js";
 
 export {dekeku};
 const fileName = "undangan";
